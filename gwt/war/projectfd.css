@@ -1,0 +1,22 @@
+/** Add css rules here for your application. */
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+body, td, a, div, .p {
+    font-family: arial, sans-serif
+}
+
+.score {
+    text-align: right;
+    font-weight: bold;
+}
+
+.title {
+    padding-top:15px;
+    padding-bottom:5px;
+    font-weight: bold;
+}

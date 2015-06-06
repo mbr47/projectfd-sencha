@@ -1,0 +1,22 @@
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.0//EN"
+        "http://google-web-toolkit.googlecode.com/svn/releases/2.0/distro-source/core/src/gwt-module.dtd">
+<module rename-to="projectfd">
+
+    <inherits name='com.google.gwt.user.User' />
+    <inherits name='com.sencha.gxt.ui.GXT'/>
+
+    <stylesheet src="reset.css" />
+
+    <inherits name="com.sencha.gxt.theme.base.Base" />
+    <inherits name="com.sencha.gxt.chart.Chart"/>
+
+    <!-- Specify the app entry point class.                   -->
+    <entry-point class='com.breugel.manu.projectfd.client.projectfd'/>
+
+    <source path="common" />
+    <source path="client" />
+
+    <!-- Specify the app servlets.                   -->
+    <servlet path='/projectfdService' class='com.breugel.manu.projectfd.server.projectfdServiceImpl'/>
+
+</module>
